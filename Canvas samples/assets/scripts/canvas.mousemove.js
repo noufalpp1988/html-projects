@@ -4,7 +4,7 @@ var x, y, Ax, Ay, r, cntxt, w, h;
 
 
 function initializeValue() {
-    x = 50, y = 50, Ax = 2, Ay = 4, r = 15;
+    x = 50, y = 50, r = 15;
     w = $("#bouncing-canvas").width();
     h = $("#bouncing-canvas").height();
     //alert(w + "-" + h);

@@ -16,7 +16,7 @@ a.active{
 div.parent-container{
     width:100%;
     float:left;
-    padding:15px;
+    padding:15px 0;
     margin:0;
 }
 
@@ -26,6 +26,29 @@ div.child-container {
     padding:15px;
     margin:0;
 }
+div.auth-box {
+    text-align: right;
+}
+.red{
+    color:red;
+}
+.green{
+    color:green;
+}
+div.auth-box p{
+    color: #434344;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1em;
+    font-family: 'Oswald', sans-serif;
+    }
+    div.auth-box p span{
+        color: #000;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 1em;
+        font-family: 'Oswald', sans-serif;
+        }
 div.fixed-width-container {
     width:1024px !important;
     float:none !important;

@@ -11,26 +11,27 @@
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="assets/scripts/canvas.bouncing.js"></script>
+    <script type="text/javascript" src="assets/scripts/canvas.arrowkeymove.js"></script>
 </head>
 
 <body>
     <main>
         <section>
             <div class="parent-container ">
-
                 <div class="child-container fixed-width-container">
-                    <div class="cont_50">
-                        <canvas id="bouncing-canvas" width="500" height="300"></canvas>
 
+                    <div class="cont_50">
+                        <canvas id="arrowkey-canvas" width="500" height="300"></canvas>
                     </div>
                     <div class="cont_50">
-                            <a href="bouncing.ball.html" class="active">Bouncing-Ball</a> 
-                            <a href="mouse.circle.html">Mouse-Circle</a>
-                            <a href="arrowkey.circle.html">Arrowley-Circle</a>
-                            <br/>
-                        <h1 class="head1">Bouncing Ball</h1>
-                        <p class="desc">Ball bounces back at the edge of the canvas</p>
+                        <a href="bouncing.ball.html">Bouncing-Ball</a>
+                        <a href="mouse.circle.html">Mouse-Circle</a>
+                        <a href="arrowkey.circle.html" class="active">Arrowley-Circle</a>
+                        <br/>
+                        <h1 class="head1">Mouse Movement Ball</h1>
+                        <p class="desc">Use arrow keys to Navigate the ball</p>
+                        <br/>
+                        <p class="out"></p>
                         <hr/>
                         <div class="auth-box">
                             <p>Author:
@@ -43,9 +44,10 @@
                         </div>
                     </div>
                 </div>
+
             </div>
             <script>
-                renderGraphicsBouncingBall();
+                renderGraphicsArrowkeyMove();
             </script>
         </section>
     </main>
