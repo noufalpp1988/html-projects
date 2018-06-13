@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Canvas</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="assets/styles/style.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="assets/scripts/canvas.bouncing.js"></script>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="parent-container ">
+
+                <div class="child-container fixed-width-container">
+                    <div class="cont_50">
+                        <canvas id="bouncing-canvas" width="500" height="300"></canvas>
+
+                    </div>
+                    <div class="cont_50">
+                            <a href="bouncing.ball.html" class="active">Bouncing-Ball</a> 
+                            <a href="mouse.circle.html">Mouse-Circle</a>
+                            <br/>
+                        <h1 class="head1">Bouncing Ball</h1>
+                        <p class="desc">Ball bounces back at the edge of the canvas</p>
+                    </div>
+                </div>
+            </div>
+            <script>
+                renderGraphicsBouncingBall();
+            </script>
+        </section>
+    </main>
+</body>
+
+</html>
